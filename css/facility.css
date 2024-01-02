@@ -1,0 +1,68 @@
+.facility {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.facility h2 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.facility-column img {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.facility-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #eee7da;
+}
+
+.layer h3 {
+  font-weight: 400;
+  transition: 1s;
+}
+
+.layer h3:hover {
+  color: #607274;
+  transform: scale(1.1);
+}
+
+@media (max-width: 1250px) {
+  .facility-row {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .facility-column img {
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .facility-column {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .facility-column img {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px;
+  }
+
+  .facility h2 {
+    font-size: 30px;
+  }
+}

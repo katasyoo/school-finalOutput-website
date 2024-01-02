@@ -1,0 +1,15 @@
+@import url("header.css");
+@import url("aboutus.css");
+@import url("services.css");
+@import url("facility.css");
+@import url("contact.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}

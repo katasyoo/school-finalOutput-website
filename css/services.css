@@ -1,0 +1,52 @@
+.services {
+  width: 90%;
+  height: 100%;
+  margin: 20px auto;
+}
+
+.services h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.services-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-content div {
+  margin-left: 5px;
+  background-color: #fff3f3;
+  border: 1px solid #fff3f3;
+  border-radius: 15px;
+  padding: 20px;
+  transition: 1s;
+}
+
+.services-content div:hover {
+  transform: scale(1.1);
+  background-color: #fff3f3;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .services {
+    margin: 0 auto;
+  }
+
+  .services h2 {
+    font-size: 36px;
+  }
+
+  .services-content {
+    flex-direction: column;
+  }
+
+  .services-content div {
+    margin-bottom: 20px;
+  }
+}
